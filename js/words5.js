@@ -3,9 +3,9 @@ export const WORDS = [
     'adieu',
     'audio',
     'crate',
-    'slant'
+    'slant',
     'lance',
-    'trice,
+    'trice',
     'salet',
     'there',
     'their',
