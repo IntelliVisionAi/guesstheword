@@ -73,12 +73,12 @@ function checkGuess () {
     }
 
     if (guessString.length != 5) {
-        toastr.error("Not enough letters!")
+        toastr.error("ARE YOU RETARDED THATS NOT 5 LETTERS!!!")
         return
     }
 
     if (!WORDS.includes(guessString)) {
-        toastr.error("Word not in list!")
+        toastr.error("That word is not yet available YOU DUMB FUCK!!")
         return
     }
 
@@ -118,7 +118,7 @@ function checkGuess () {
     }
 
     if (guessString === rightGuessString) {
-        toastr.success("You are not retarded you guessed the right word!")
+        toastr.success("You Got")
         guessesRemaining = 0
         return
     } else {
