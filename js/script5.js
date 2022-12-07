@@ -118,7 +118,7 @@ function checkGuess () {
     }
 
     if (guessString === rightGuessString) {
-        toastr.success("You Got")
+        toastr.success("You Guessed Correct Dumb Fuck!!!")
         guessesRemaining = 0
         return
     } else {
