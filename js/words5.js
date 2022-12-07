@@ -1,5 +1,12 @@
 export const WORDS = [
     'which',
+    'adieu',
+    'audio',
+    'crate',
+    'slant'
+    'lance',
+    'trice,
+    'salet',
     'there',
     'their',
     'about',
