@@ -73,12 +73,12 @@ function checkGuess () {
     }
 
     if (guessString.length != 5) {
-        toastr.error("ARE YOU RETARDED THATS NOT 5 LETTERS!!!")
+        toastr.error("That is not 5 letters!!!")
         return
     }
 
     if (!WORDS.includes(guessString)) {
-        toastr.error("That word is not yet available YOU DUMB FUCK!!")
+        toastr.error("Not in word list")
         return
     }
 
@@ -118,7 +118,7 @@ function checkGuess () {
     }
 
     if (guessString === rightGuessString) {
-        toastr.success("You Guessed Correct Dumb Fuck!!!")
+        toastr.success("You are correct!")
         guessesRemaining = 0
         return
     } else {
@@ -127,8 +127,8 @@ function checkGuess () {
         nextLetter = 0;
 
         if (guessesRemaining === 0) {
-            toastr.error("Your Shit at this Game!")
-            toastr.info(`Dumb Fuck the right word was: "${rightGuessString}"`)
+            toastr.error("Press CTRL + R to Play Again")
+            toastr.info(`The word was: "${rightGuessString}"`)
         }
     }
 }
