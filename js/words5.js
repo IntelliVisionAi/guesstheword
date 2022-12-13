@@ -1,7 +1,9 @@
 export const WORDS = [
     'which',
     'adieu',
+    'dylan',
     'audio',
+    'vagina',
     'crate',
     'slant',
     'lance',
